@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  width: 80%;
+  margin: auto;
+  margin-top: 25px;
+  display: grid;
+  margin-bottom: 150px;
+  /* grid-template-columns: repeat(3, 1fr);*/
+  grid-template-rows: auto;
+
+}
+
+
+section input {
+  width: 200px;
+  height: 25px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  margin-left: 200px;
+  margin-bottom: 30px;
+}
+
+section button{
+  width: 80px;
+  height: 30px;
+  margin-left: 20px;
+  border-radius:20px ;
+  border:0.3px solid;
+  cursor: pointer;
+  background-color: white;
+}
+.main-div{
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main-div-1 select{
+height: 25px;
+border-radius: 15px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.Image{
+  margin-left: -30px;
+}
+    
+.Product{
+  margin-left:15px ;
+}
+
+.color{
+  margin-left:-5px;
+}
+
+.size{
+margin-left: 20px;
+}
+
+.stock{
+  margin-left:58px;
+}
+
+.price{
+  margin-left: 5px;
+}
+
+.addToCart{
+  margin-left:10px;
+}
+
+
+.main-div select{
+  width: 150px;
+}
+
+.labels{
+  background-color: #FBF2CF;
+  width: 80%;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+  height: 45px;
+  padding-top: 15px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+.labels span{
+  margin-top: 20px;
+  margin-left: 75px;
+}
+
+.cards {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  background-color: #FDEEDC;
+  border-radius: 20px;
+  margin-left: 100px;
+  border: 1px solid gray;
+}
+
+.cards button{
+  background-color: #FDEEDC;
+}
+
+.cards .fa-cart-shopping{
+  color: #FA7070;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.cards div {
+  width: 100%;
+  padding: 20px;
+}
+
+.cards p {
+  margin-top: 30px;
+  width: 50px;
+  font-weight: 500;
+}
+
+.cards p {
+  width: 100px;
+}
+
+.cards:hover {
+  box-shadow: 0 10px 10px 10px rbga(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.cards img {
+  width: 100px;
+  height: 100px;
+}
+
+.details p:nth-child(1) {
+  font-weight: bold;
+}
+
+.details p:nth-child(2) {
+  color: grey;
+  font-size: 0.8rem;
+}
+
+.details p:nth-child(3) {
+  font-weight: bolx;
+  color: grey;
+}
+
+.cards button {
+  padding: 5px 10px;
+  border: none;
+  font-weight: bold;
+  outline: none;
+  margin-top: 30px;
+}
